@@ -1,0 +1,8 @@
+[submodule "solutions/WebPart-Example-Solution"]
+	path = solutions/WebPart-Example-Solution
+	url = https://github.com/mauriora/WebPart-Example-Solution.git
+	branch = main
+[submodule "solutions/Rateable-Announcements-Solution"]
+	path = solutions/Rateable-Announcements-Solution
+	url = https://github.com/mauriora/Rateable-Announcements-Solution.git
+	branch = main
