@@ -1,5 +1,6 @@
 # Introduction 
 This is an example of a re-useable hybrid-repo, SharePoint (SPFx) MVC implementation. It is using git-modules, yarn workspaces, PNPjs, Spfx-Controls and Fluent UI.
+The goal is to provide a starting point for rapid SPFX development.
 
 ## Summary
 The example solutions share the same SharePoint Controller and Spfx views. 
