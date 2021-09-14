@@ -6,3 +6,7 @@
 	path = solutions/Rateable-Announcements-Solution
 	url = https://github.com/mauriora/Rateable-Announcements-Solution.git
 	branch = main
+[submodule "solutions/Keyword-Feedback-Solution"]
+	path = solutions/Keyword-Feedback-Solution
+	url = https://github.com/mauriora/Keyword-Feedback-Solution.git
+	branch = main
