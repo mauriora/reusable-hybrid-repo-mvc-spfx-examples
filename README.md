@@ -21,10 +21,11 @@ It hopefully illustrates:
     3. [Work on modules and app simultanteously](#work-on-modules-and-app-simultanteously)
     4. [Shared modules](#shared-modules)
     5. [MobX for state management](#mobx-for-state-management)
-3. [How to use it](#how-to-use-it)
+3. [Real world example](#real-world-example)
+4. [How to use it](#how-to-use-it)
     1. [Process](#process)
     2. [Work on shared modules](#work-on-shared-modules)
-4. [Contribute](#contribute)
+5. [Contribute](#contribute)
     1. [Quick start](#quick-start)
     2. [To do list](#to-do-list)
 
@@ -65,6 +66,8 @@ The goal of this project is to provide a starting point, to rapidly develop comp
 
 The `README.md` in the submodules document the specific component, like Controller. This document focuses on the shared architecture and shared processes.
 
+![Shared submodules](images/overview.svg)
+
 ## Hybrid repo
 Each workspace appears like a mono-repo on the local hard drive, yet it's created from independent repositories.
 
@@ -86,6 +89,31 @@ Mostly being HOCs providing an uniform interface to work with the MVController.
 
 ## MobX for state management
 MobX is used for state management and data-driven events. Instead of creating and registering specific events, the observer pattern is used.
+
+# Real world example
+This is a simple real world example of a store extending PNP Search and using this architecture. The Store is implemented by an Agency for a Client.
+
+![Shared submodules](images/realworld-workspace.svg)
+
+## Overview
+In the apps folder are the deliverables:
+- **Navigation**, as a search filter
+- **Search Item View**, a search extension component implementing a dynamic property `AddToCart` defined in `Store Dynamic Data`
+- **Cart** uses `Store Dynamic Data` to connect to a `AddToCart` dynamic data source
+- **Manager** uses the same `Store Models` as used by the `Cart`
+
+In the shared folder are the modules used by the apps:
+- **SPFx Controls** contains view elements optimised to work with the `SharePoint Controller`
+- **SharePoint Controller** implements access to SharePoint and defines the Base classes for Models
+- **Store Models** contains extensions of the SharePoint base models for the list required for the store
+- **Agency Utils** frequently used code snippets used by most deliverables
+- **Store Dynamic Data** defines the interface for the DynamicData source
+
+## Distribution
+Each colour represents a repository location:
+- **blue** are the repositories owned by the client, containing the specific business logic and domain models
+- **green** open source modules used
+- **orange** the agencies own utils library
 
 # How to use it
 This explains how to use the different aspecpts of the MVC implementation and hybrid-repos.
