@@ -67,7 +67,7 @@ It hopefully illustrates:
 
 ### Minimal path to awesomeness
 
-Go to any of the example solution in the [solutions](./solutions/) folder and follow the `README.md`. Basically `clone` and `serve`.
+Go to any repository of the example solution in the [solutions](./solutions/) folder and follow the `README.md`. Basically `clone` and `serve`.
 
 #### Alternatively to get it all in one go
 
