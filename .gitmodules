@@ -1,10 +1,10 @@
-[submodule "solutions/WebPart-Example-Solution"]
-	path = solutions/WebPart-Example-Solution
-	url = https://github.com/mauriora/WebPart-Example-Solution.git
+[submodule "solutions/WebPart-Test-Workspaces"]
+	path = solutions/WebPart-Test-Workspaces
+	url = https://github.com/mauriora/WebPart-Test-Workspaces.git
 	branch = main
-[submodule "solutions/Rateable-Announcements-Solution"]
-	path = solutions/Rateable-Announcements-Solution
-	url = https://github.com/mauriora/Rateable-Announcements-Solution.git
+[submodule "solutions/Announcements-Bar-Spfx"]
+	path = solutions/Announcements-Bar-Spfx
+	url = https://github.com/mauriora/Announcements-Bar-Spfx.git
 	branch = main
 [submodule "solutions/Keyword-Feedback-Solution"]
 	path = solutions/Keyword-Feedback-Solution
