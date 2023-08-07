@@ -142,8 +142,8 @@ Each of the solutions illustrate a different SPFx category. All create their own
 | Published | Name                                                                      | Category            | Illustrated topics                                     |
 |-----------|---------------------------------------------------------------------------|---------------------|--------------------------------------------------------|
 |    [x]    | [Announcements bar](https://github.com/mauriora/Announcements-Bar-Spfx)   | Extension           | separate deployment packages for extension and lists   |
-|    [ ]    | [Keyword-Feedback](https://github.com/mauriora/Keyword-Feedback-Solution) | Extension, Web part | 2 deliverables from 1 solution                         |
-|    [ ]    | [WebPart-Test](https://github.com/mauriora/WebPart-Test-Workspaces)       | Web part            | all field controls on a form, graph API registration   |
+|    [x]    | [Keyword-Feedback](https://github.com/mauriora/Keyword-Feedback-Solution) | Extension, Web part | 2 deliverables from 1 solution                         |
+|    [x]    | [WebPart-Test](https://github.com/mauriora/WebPart-Test-Workspaces)       | Web part            | all field controls on a form, graph API registration   |
 
 ## Real world example
 
